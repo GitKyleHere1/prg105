@@ -35,6 +35,9 @@ def main():
     print("Number Of Sales: {}".format(num_sales))
     print("Average Sales: {:,.2f}".format(average))
 
+    # Close the file
+    sales_file.close()
+
 
 # Function to calculate total sales
 def total_sales_funct(formatted_sale, total_sales):
