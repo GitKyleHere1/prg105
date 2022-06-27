@@ -109,6 +109,7 @@ for state in states_list:
     states_list[states_list.index(state)] = state.rstrip("\n")
 
 print(states_list)
+states_file.close()
 
 # TODO 7.8 Two-Dimensional Lists
 print("=" * 10, "Section 7.8 two-dimensional lists", "=" * 10)
