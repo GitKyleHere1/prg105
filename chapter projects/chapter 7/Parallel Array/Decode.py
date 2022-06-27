@@ -57,14 +57,14 @@ def decipher(ciphertext):
                   "L", "K", "J", "H", "F", "G", "D", "S", "A",
                   "M", "N", "B", "C", "V", "X", "Z"]
 
-    # Create empty string for ciphertext
+    # Create empty string for plaintext
     plaintext = ""
 
-    # Loop through each char in plaintext and add the conversion to ciphertext variable
+    # Loop through each char in ciphertext and add the conversion to plaintext variable
     for char in ciphertext:
         plaintext += plain[cipher_key.index(char)]
 
-    # Return the full ciphertext string to main function
+    # Return the full plaintext string to main function
     return plaintext
 
 
