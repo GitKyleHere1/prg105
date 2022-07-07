@@ -15,9 +15,6 @@ def main():
         file_open_attempt = "overdue_list"
         overdue_list_file = open("over90.txt", "r")
 
-        account_list_file.close()
-        overdue_list_file.close()
-
     except IOError:
         if file_open_attempt == "account_list":
             print("Error opening account_list.")
@@ -27,10 +24,6 @@ def main():
 
         # Quit program due to file errors
         exit()
-
-    # Reopen the files
-    account_list_file = open("accounts.txt", "r")
-    overdue_list_file = open("over90.txt", "r")
 
     # read each file as a list into their associated variable
     account_list = account_list_file.readlines()
