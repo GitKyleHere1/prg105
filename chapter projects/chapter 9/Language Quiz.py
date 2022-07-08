@@ -29,7 +29,7 @@ def main():
     # Question section of quiz
     # Loop through dictionary, show english number, ask for german answer
     for number in quiz_dict:
-        response = input("What is the german number for '{}': ".format(number))
+        response = input("What is the german number for '{}': ".format(number)).lower()
 
         # Print the correct answer after the user gave their response
         print("the answer is {}.".format(quiz_dict[number]))
