@@ -17,7 +17,12 @@ def main():
 
     # Get user input for steps of each day
     for day in days_steps:
-        days_steps[day] = int(input("Please enter the steps for {}. : ".format(day)))
+        while True:
+            try:
+                days_steps[day] = int(input("Please enter the steps for {}. : ".format(day)))
+                break
+            except ValueError:
+                print("Invalid Entry, please enter a number.")
 
     # Get Total, Average, Max steps, Min steps
     total_steps = sum(days_steps.values())
