@@ -15,7 +15,7 @@ def main():
     q1 = question.Question("What is the capital of Illinois?", "A: Chicago", "B: Springfield", "C: Woodstock", "D: Algonquin", "B")
     q2 = question.Question("Regarding 'The Beatles', which is a correct song title?", "A: The Final Countdown", "B: Bohemian Rhapsody", "C: We Will Rock You", "D: Hey Jude", "D")
     q3 = question.Question("Who is the owner of the electric car brand 'Tesla'?", "A: Nikola Tesla", "B: Michael Jordan", "C: Elon Musk", "D: Mr. Bean", "C")
-    q4 = question.Question("Which president was said to have had wooden teeth?", "A: Abraham Lincoln", "B: George Washington", "C: Barrack Obama", "D: John F Kennedy", "A")
+    q4 = question.Question("Which president was said to have had wooden teeth?", "A: Abraham Lincoln", "B: George Washington", "C: Barack Obama", "D: John F Kennedy", "A")
     q5 = question.Question("Which topping does not belong on a pizza?", "A: Pepperoni", "B: Onions", "C: Sausage", "D: Pineapple", "D")
     q6 = question.Question("Where did Python (programming language) get its name inspired from?", "A: Snakes", "B: Monty Python", "C: A video game", "D: None of these", "B")
     q7 = question.Question("Who invented the lightbulb?", "A: Benjamin Franklin", "B: Sigmund Freud", "C: Albert Einstein", "D: Thomas Edison", "D")
