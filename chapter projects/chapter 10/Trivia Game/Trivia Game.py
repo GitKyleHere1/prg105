@@ -31,7 +31,7 @@ def main():
     question_set1 = question_list[:5]
     question_set2 = question_list[5:]
 
-    # Display play 1 turn
+    # Display player 1 turn
     print(player1.get_name() + ", It is your turn to answer 5 questions.\n")
 
     # Loop through player 1's questions
@@ -54,7 +54,7 @@ def main():
 
         print("\nNext Question:\n")
 
-    # Display play 2 turn
+    # Display player 2 turn
     print(player2.get_name() + ", It is your turn to answer 5 questions.")
 
     # Loop through player 2's questions
