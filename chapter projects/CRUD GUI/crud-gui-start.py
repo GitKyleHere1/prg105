@@ -151,6 +151,7 @@ class AddGUI:
 
         # Create new layer for 'add' feature
         self.add = tkinter.Toplevel(master)
+        self.add.title("Add a new customer")
 
         # Create Frame for 'add' layer
         self.top_frame = tk.Frame(self.add)
@@ -230,6 +231,7 @@ class DeleteGUI:
 
         # Create new layer for 'delete' feature
         self.delete = tkinter.Toplevel(master)
+        self.delete.title("Delete a customer")
 
         # Create Frame for 'delete' layer
         self.top_frame = tk.Frame(self.delete)
@@ -295,6 +297,7 @@ class ChangeGUI:
 
         # Create new layer for 'change' feature
         self.change = tkinter.Toplevel(master)
+        self.change.title("Change a Email")
 
         # Create Frame for 'change' layer
         self.top_frame = tk.Frame(self.change)
